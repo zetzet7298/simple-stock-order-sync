@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+        // --- Lõi cho Python ---
+        "ms-python.python", // Hỗ trợ Python cơ bản
+        "charliermarsh.ruff", // Linter & Formatter siêu nhanh
+        "ms-python.mypy-type-checker", // Kiểm tra kiểu dữ liệu
+        // --- Hỗ trợ Project & DevOps ---
+        "ms-azuretools.docker", // Hỗ trợ Docker
+        "tamasfe.even-better-toml", // Hỗ trợ file .toml
+        "ms-ossdata.vscode-postgresql", // Kết nối database PostgreSQL
+        // --- Quản lý Git ---
+        "eamodio.gitlens", // "Siêu năng lực" cho Git
+        "mhutchie.git-graph", // Xem lịch sử Git dạng đồ thị
+        // --- Năng suất & Chất lượng Code ---
+        "rangav.vscode-thunder-client", // Test API ngay trong VS Code
+        "streetsidesoftware.code-spell-checker", // Kiểm tra lỗi chính tả
+        "aaron-bond.better-comments", // Comment đẹp và rõ ràng hơn
+        // --- Giao diện ---
+        "PKief.material-icon-theme" // Icon cho file và thư mục
+    ]
+}

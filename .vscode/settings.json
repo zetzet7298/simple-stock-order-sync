@@ -1,0 +1,25 @@
+{
+    // --- Thiết lập chính cho trình soạn thảo ---
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        // Yêu cầu Ruff tự động sửa tất cả các lỗi có thể khi lưu file.
+        // Đây là cài đặt mạnh nhất, bao gồm cả linting và formatting.
+        "source.fixAll.ruff": "explicit",
+        // Yêu cầu Ruff tự động sắp xếp các import khi lưu.
+        "source.organizeImports.ruff": "explicit"
+    },
+    // --- Thiết lập cho file Python ---
+    "[python]": {
+        // Đặt Ruff làm công cụ định dạng mặc định.
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    // --- Ẩn các file/thư mục không cần thiết ---
+    "files.exclude": {
+        "**/.git": true,
+        "**/.venv": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        ".env": true
+    }
+}
