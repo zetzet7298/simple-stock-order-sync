@@ -7,7 +7,7 @@
         // --- Hỗ trợ Project & DevOps ---
         "ms-azuretools.docker", // Hỗ trợ Docker
         "tamasfe.even-better-toml", // Hỗ trợ file .toml
-        "ms-ossdata.vscode-postgresql", // Kết nối database PostgreSQL
+        "ckolkman.vscode-postgres", // Kết nối database PostgreSQL
         // --- Quản lý Git ---
         "eamodio.gitlens", // "Siêu năng lực" cho Git
         "mhutchie.git-graph", // Xem lịch sử Git dạng đồ thị
