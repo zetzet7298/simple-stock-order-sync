@@ -21,5 +21,19 @@
         "**/__pycache__": true,
         "**/.mypy_cache": true,
         ".env": true
-    }
+    },
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "sqlalchemy",
+            "depth": 4,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "fastapi",
+            "depth": 4,
+            "includeAllSymbols": true
+        }
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoSearchPaths": true,
 }
