@@ -1,5 +1,5 @@
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
-from sqlalchemy.orm import declarative_base
+from sqlalchemy.orm import DeclarativeBase
 
 from .config import settings
 
@@ -11,7 +11,9 @@ AsyncSessionLocal = async_sessionmaker(
     engine, expire_on_commit=False, class_=AsyncSession
 )
 
-Base = declarative_base()
+
+class Base(DeclarativeBase):
+    pass
 
 
 # Dependency mới để lấy async session
